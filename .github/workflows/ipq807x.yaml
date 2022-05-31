@@ -123,8 +123,8 @@ jobs:
           echo "CONFIG_PACKAGE_kmod-nft-ipt=y" >> .config
           echo "CONFIG_PACKAGE_kmod-nft-nat=y" >> .config
           echo "CONFIG_PACKAGE_kmod-nft-reject=y" >> .config
-          echo "CONFIG_NETFILTER_NETLINK=m" >> .config
-          echo "CONFIG_NETFILTER_NETLINK_HOOK=m" >> .config
+          echo "CONFIG_NETFILTER_NETLINK=y" >> .config
+          echo "CONFIG_NETFILTER_NETLINK_HOOK=y" >> .config
           # IPv6 support 
           echo "CONFIG_PACKAGE_luci-proto-ipv6=y" >> .config
           echo "CONFIG_PACKAGE_kmod-nft-ipt6=y" >> .config
