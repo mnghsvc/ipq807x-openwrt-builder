@@ -129,6 +129,10 @@ jobs:
           echo "CONFIG_PACKAGE_kmod-macvlan=y" >> .config
           echo "CONFIG_PACKAGE_kmod-tun=y" >> .config
           echo "CONFIG_PACKAGE_libwolfssl=y" >> .config
+          echo "CONFIG_PACKAGE_libwolfssl5.3.0" >> .config
+          echo "CONFIG_PACKAGE_libwolfssl5.3.0.ee39414e" >> .config
+          
+          echo "CONFIG_PACKAGE_keepalived=y" >> .config
           echo "CONFIG_NETFILTER_NETLINK=y" >> .config
           echo "CONFIG_NETFILTER_NETLINK_HOOK=y" >> .config
           # IPv6 support 
