@@ -124,6 +124,11 @@ jobs:
           echo "CONFIG_PACKAGE_kmod-nft-ipt=y" >> .config
           echo "CONFIG_PACKAGE_kmod-nft-nat=y" >> .config
           echo "CONFIG_PACKAGE_kmod-nft-reject=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-ipt-ipset=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-macvlan=y" >> .config
+          echo "CONFIG_PACKAGE_kmod-tun=y" >> .config
+          echo "CONFIG_PACKAGE_libwolfssl=y" >> .config
           echo "CONFIG_NETFILTER_NETLINK=y" >> .config
           echo "CONFIG_NETFILTER_NETLINK_HOOK=y" >> .config
           # IPv6 support 
