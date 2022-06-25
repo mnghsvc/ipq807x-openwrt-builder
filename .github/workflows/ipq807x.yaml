@@ -98,6 +98,8 @@ jobs:
           echo "CONFIG_PACKAGE_procd-seccomp=y" >> .config
           echo "CONFIG_PACKAGE_wireguard=y" >> .config
           echo "CONFIG_PACKAGE_wget=y" >> .config
+          echo "CONFIG_PACKAGE_adguardhome=y" >> .config
+          echo "CONFIG_PACKAGE_frr=y" >> .config
           # luci
           echo "CONFIG_PACKAGE_luci=y" >> .config
           echo "CONFIG_PACKAGE_luci-base=y" >> .config
@@ -105,10 +107,11 @@ jobs:
           echo "CONFIG_PACKAGE_luci-theme-bootstrap=y" >> .config          
           echo "CONFIG_PACKAGE_luci-app-ddns=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-firewall=y" >> .config
-          echo "CONFIG_PACKAGE_luci-app-upnp=y" >> .config
+          #echo "CONFIG_PACKAGE_luci-app-upnp=y" >> .config
           echo "CONFIG_PACKAGE_luci-mod-dashboard=y" >> .config
           echo "CONFIG_PACKAGE_luci-app-wireguard=y" >> .config
-          echo "CONFIG_PACKAGE_luci-app-ddns=y" >> .config
+          #echo "CONFIG_PACKAGE_luci-app-ddns=y" >> .config
+          echo "CONFIG_PACKAGE_luci-app-statistics=y" >> .config
           echo "CONFIG_PACKAGE_less=n" >> .config
           # firewall4
           echo "CONFIG_IPTABLES_NFTABLES=y" >> .config
