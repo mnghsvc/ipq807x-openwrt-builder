@@ -83,9 +83,9 @@ jobs:
           echo "CONFIG_PACKAGE_bind-host=y" >> .config
           echo "CONFIG_PACKAGE_ca-certificates=y" >> .config                
           echo "CONFIG_PACKAGE_ca-bundle=y" >> .config
-          echo "CONFIG_PACKAGE_ddns-scripts=y" >> .config
-          echo "CONFIG_PACKAGE_ddns-scripts-cloudflare=y" >> .config
-          echo "CONFIG_PACKAGE_ddns-scripts-services=y" >> .config
+          #echo "CONFIG_PACKAGE_ddns-scripts=y" >> .config
+          #echo "CONFIG_PACKAGE_ddns-scripts-cloudflare=y" >> .config
+          #echo "CONFIG_PACKAGE_ddns-scripts-services=y" >> .config
           echo "CONFIG_PACKAGE_findutils-xargs=y" >> .config
           echo "CONFIG_PACKAGE_fping=y" >> .config
           echo "CONFIG_PACKAGE_gawk=y" >> .config
@@ -98,7 +98,7 @@ jobs:
           echo "CONFIG_PACKAGE_procd-seccomp=y" >> .config
           echo "CONFIG_PACKAGE_wireguard=y" >> .config
           echo "CONFIG_PACKAGE_wget=y" >> .config
-          echo "CONFIG_PACKAGE_adguardhome=y" >> .config
+          #echo "CONFIG_PACKAGE_adguardhome=y" >> .config
           #echo "CONFIG_PACKAGE_frr=y" >> .config
           # luci
           echo "CONFIG_PACKAGE_luci=y" >> .config
