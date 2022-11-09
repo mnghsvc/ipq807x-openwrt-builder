@@ -99,7 +99,7 @@ jobs:
           echo "CONFIG_PACKAGE_wireguard=y" >> .config
           echo "CONFIG_PACKAGE_wget=y" >> .config
           #echo "CONFIG_PACKAGE_adguardhome=y" >> .config
-          #echo "CONFIG_PACKAGE_frr=y" >> .config
+          #echo "CONFIG_PACKAGE_frr=m/" >> .config
           # luci
           echo "CONFIG_PACKAGE_luci=y" >> .config
           echo "CONFIG_PACKAGE_luci-base=y" >> .config
@@ -135,8 +135,8 @@ jobs:
           echo "CONFIG_PACKAGE_libwolfssl5.3.0=y" >> .config
           echo "CONFIG_PACKAGE_libwolfssl5.3.0.ee39414e=y" >> .config
           echo "CONFIG_PACKAGE_keepalived=y" >> .config
-          echo "CONFIG_NETFILTER_NETLINK=y" >> .config
-          echo "CONFIG_NETFILTER_NETLINK_HOOK=y" >> .config
+          echo "CONFIG_NETFILTER_NETLINK=m" >> .config
+          echo "CONFIG_NETFILTER_NETLINK_HOOK=m" >> .config
           # IPv6 support 
           echo "CONFIG_PACKAGE_luci-proto-ipv6=y" >> .config
           echo "CONFIG_PACKAGE_kmod-nft-ipt6=y" >> .config
